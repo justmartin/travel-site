@@ -1,0 +1,132 @@
+// Place all the styles related to the Countries controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#countries-parallax {
+	background: linear-gradient(rgba(20,20,20, .4), rgba(20,20,20, .4)), url();
+  height: 40%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.countries-section {
+	height: 1000px;
+  background-color: white;
+  font-size: 20px;
+  color: black;
+}
+
+.countries-container {
+	margin-top: 150px;
+}
+
+.caption-countries {
+  padding-top: 120px;
+	letter-spacing: 5px;
+	color: white;
+}
+
+.country-box {
+	height: 200px;
+	padding-top: 80px;
+	color: white;
+}
+
+#countries-thailand{
+	background-image: url(thailand.jpg);
+	filter: grayscale(100%); 
+  background-size: cover;
+}
+
+#countries-vietnam{
+	background-image: url(vietnam.jpg);
+	filter: grayscale(100%); 
+  background-size: cover;
+}
+
+#countries-cambodia{
+	background-image: url(cambodia.jpg);
+	filter: grayscale(100%); 
+  background-size: cover;
+}
+
+#countries-indonesia{
+	background-image: url(indonesia.jpg);
+	filter: grayscale(100%); 
+  background-size: cover;
+}
+
+#countries-malaysia{
+	background-image: url(malaysia.jpg);
+	filter: grayscale(100%); 
+  background-size: cover;
+}
+
+#countries-singapore{
+	background-image: url(singapore.jpg);
+	filter: grayscale(100%); 
+  background-size: cover;
+}
+
+#countries-portugal{
+	background-image: url(portugal.jpg);
+	filter: grayscale(100%); 
+  background-size: cover;
+}
+
+#countries-spain{
+	background-image: url(spain.jpg);
+	filter: grayscale(100%); 
+  background-size: cover;
+}
+
+#countries-italy{
+	background-image: url(italy.jpg);
+	filter: grayscale(100%); 
+  background-size: cover;
+}
+
+#countries-france{
+	background-image: url(france.jpg);
+	filter: grayscale(100%); 
+  background-size: cover;
+}
+
+#countries-netherlands{
+	background-image: url(netherlands.jpg);
+	filter: grayscale(100%); 
+  background-size: cover;
+}
+
+#countries-greece{
+	background-image: url(greece.jpg);
+	filter: grayscale(100%); 
+  background-size: cover;
+}
+
+#countries-uk{
+	background-image: url(unitedkingdom.jpg);
+	filter: grayscale(100%); 
+  background-size: cover;
+}
+
+#countries-germany{
+	background-image: url(germany.jpg);
+	filter: grayscale(100%); 
+  background-size: cover;
+}
+
+#countries-belgium{
+	background-image: url(belgium.jpg);
+	filter: grayscale(100%); 
+  background-size: cover;
+}
+
+#countries-iceland{
+	background-image: url(iceland.jpg);
+	filter: grayscale(100%); 
+  background-size: cover;
+}
