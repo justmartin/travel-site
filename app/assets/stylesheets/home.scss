@@ -6,7 +6,9 @@ body, html {
 	height: 100%;
 }
 
-.parallax {
+#parallax-img-1 {
+	background: linear-gradient(rgba(20,20,20, .3), rgba(20,20,20, .3)), url(home-1.jpg);
+  height: 90%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -14,19 +16,24 @@ body, html {
   background-size: cover;
 }
 
-#parallax-img-1 {
-	background-image: url(home-1.jpg);
-	height: 90%;
-}
-
 #parallax-img-2 {
-	background-image: url(home-2.jpg);
-	height: 70%; 
+	background: linear-gradient(rgba(20,20,20, .3), rgba(20,20,20, .3)), url(home-2.jpg);
+  height: 70%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #parallax-img-3 {
-	background-image: url(home-3.jpg);
-	height: 60%; 
+	background: linear-gradient(rgba(20,20,20, .3), rgba(20,20,20, .3)), url(home-3.jpg);
+  height: 60%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .parallax-section{
@@ -44,4 +51,5 @@ body, html {
 .caption-country {
 	letter-spacing: 5px;
 	padding-bottom: 10px;
+	color: white;
 }
