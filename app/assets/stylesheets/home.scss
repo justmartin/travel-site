@@ -7,8 +7,10 @@ body, html {
 	font-family: 'Raleway', sans-serif !important;
 }
 
+//=====================================================================================
+
 #parallax-img-1 {
-	background: linear-gradient(rgba(20,20,20, .3), rgba(20,20,20, .3)), url(home-1.jpg);
+	background: linear-gradient(rgba(20,20,20, .4), rgba(20,20,20, .4)), url(home-1.jpg);
   height: 90%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -18,7 +20,7 @@ body, html {
 }
 
 #parallax-img-2 {
-	background: linear-gradient(rgba(20,20,20, .3), rgba(20,20,20, .3)), url(home-2.jpg);
+	background: linear-gradient(rgba(20,20,20, .4), rgba(20,20,20, .4)), url(home-2.jpg);
   height: 70%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -28,7 +30,7 @@ body, html {
 }
 
 #parallax-img-3 {
-	background: linear-gradient(rgba(20,20,20, .3), rgba(20,20,20, .3)), url(home-3.jpg);
+	background: linear-gradient(rgba(20,20,20, .4), rgba(20,20,20, .4)), url(home-3.jpg);
   height: 60%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -37,12 +39,7 @@ body, html {
   background-size: cover;
 }
 
-.parallax-section{
-	height: 200px;
-	background-color: black;
-	font-size: 20px;
-	color: white;
-}
+//=====================================================================================
 
 .caption {
 	text-align: center;
@@ -53,4 +50,13 @@ body, html {
 	letter-spacing: 5px;
 	padding-bottom: 10px;
 	color: white;
+}
+
+//=====================================================================================
+
+.parallax-section{
+  height: 200px;
+  background-color: black;
+  font-size: 20px;
+  color: white;
 }
