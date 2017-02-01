@@ -7,14 +7,11 @@ body, html {
 }
 
 .parallax {
-    /* Full height */
-    
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #parallax-img-1 {
@@ -29,7 +26,7 @@ body, html {
 
 #parallax-img-3 {
 	background-image: url(home-3.jpg);
-	height: 50%; 
+	height: 60%; 
 }
 
 .parallax-section{
@@ -37,4 +34,14 @@ body, html {
 	background-color: black;
 	font-size: 20px;
 	color: white;
+}
+
+.caption {
+	text-align: center;
+	padding-top: 200px;
+}
+
+.caption-country {
+	letter-spacing: 5px;
+	padding-bottom: 10px;
 }
