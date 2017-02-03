@@ -5,7 +5,7 @@ $(document).on('turbolinks:load', function() {
 			text: "Thailand 3/2/16 - 3/12/16",
 			fontFamily: "Raleway"
 		},
-		 legend:{
+		legend:{
   			fontFamily: "Raleway"
  		},
 		animationEnabled: true,
@@ -14,7 +14,7 @@ $(document).on('turbolinks:load', function() {
 		{
 			type: "doughnut",
 			indexLabelFontFamily: "Raleway",
-			indexLabelFontSize: 20,
+			indexLabelFontSize: 15,
 			startAngle: 0,
 			indexLabelFontColor: "dimgrey",
 			indexLabelLineColor: "darkgrey",
