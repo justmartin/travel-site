@@ -17,11 +17,11 @@ $(document).on('turbolinks:load', function() {
 			toolTipContent: "{y} %",
 
 			dataPoints: [
-			{ y: 19.75, indexLabel: "Accommodation {y}%" },
-			{ y: 36.60, indexLabel: "Food {y}%" },
-			{ y: 14.07, indexLabel: "Transport {y}%" },
-			{ y: 26.84, indexLabel: "Entertainment {y}%" },
-			{ y: 3.73, indexLabel: "Miscellaneous {y}%" }
+			{ y: 19.75, indexLabel: "$150.84" },
+			{ y: 36.60, indexLabel: "$279.50" },
+			{ y: 14.07, indexLabel: "$99.84" },
+			{ y: 26.84, indexLabel: "$205.00" },
+			{ y: 3.73, indexLabel: "$28.48" }
 			]
 		}
 		]
