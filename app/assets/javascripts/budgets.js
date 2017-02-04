@@ -1,6 +1,6 @@
 $(document).on('turbolinks:load', function() {
 
-	var chart = new CanvasJS.Chart("chartContainer", {
+	var thailand1Chart = new CanvasJS.Chart("thailand-chart-1", {
 		title: {
 			text: "Thailand 3/2/16 - 3/12/16",
 			fontFamily: "Raleway"
@@ -32,7 +32,7 @@ $(document).on('turbolinks:load', function() {
 		]
 	});
 
-	chart.render();
+	thailand1Chart.render();
 
 });
 
