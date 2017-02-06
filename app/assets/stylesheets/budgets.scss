@@ -16,10 +16,14 @@
 	display: none !important;
 }
 
+.chart {
+  margin-bottom: 50px;
+}
+
 .total {
   margin: 0;    
   position: absolute;
-  top: 52%;
+  top: 58%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
