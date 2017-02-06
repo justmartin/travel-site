@@ -1,6 +1,27 @@
 $(document).on('turbolinks:load', function() {
 
+  CanvasJS.addColorSet("setOne",
+  [//colorSet Array
+		"#1ae0c7",
+		"#34393f",
+		"#ffe854",
+		"#3a9dc2",
+		"#87898d"                
+  ]);
+
+  CanvasJS.addColorSet("setTwo",
+  [//colorSet Array
+		"#BAFF29",
+		"#1A1B41",
+		"#F1FFE7",
+		"#C2E7DA",
+		"#6290C3"                
+  ]);
+
 	var thailand1Chart = new CanvasJS.Chart("thailand-chart-1", {
+
+		colorSet: "setTwo",
+
 		title: {
 			text: "Thailand 3/2/16 - 3/12/16",
 			fontFamily: "Rubik"
