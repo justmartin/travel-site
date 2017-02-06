@@ -3,17 +3,17 @@ $(document).on('turbolinks:load', function() {
 	var thailand1Chart = new CanvasJS.Chart("thailand-chart-1", {
 		title: {
 			text: "Thailand 3/2/16 - 3/12/16",
-			fontFamily: "Raleway"
+			fontFamily: "Rubik"
 		},
 		legend:{
-  			fontFamily: "Raleway"
+  			fontFamily: "Rubik"
  		},
 		animationEnabled: true,
 		theme: "theme2",
 		data: [
 		{
 			type: "doughnut",
-			indexLabelFontFamily: "Raleway",
+			indexLabelFontFamily: "Rubik",
 			indexLabelFontSize: 15,
 			startAngle: 0,
 			indexLabelFontColor: "dimgrey",
