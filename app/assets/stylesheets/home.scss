@@ -100,7 +100,7 @@ body, html {
 }
 
 .footer-section {
-  height: 400px;
+  height: 300px;
   background-color: #272727;
 }
 
@@ -130,24 +130,7 @@ body, html {
   margin: 0;
 }
 
-.footer-basic-centered .footer-links{
-  list-style: none;
-  font-weight: bold;
-  color:  #ffffff;
-  padding: 35px 0 23px;
-  margin: 0;
-}
-
-.footer-basic-centered .footer-links a{
-  display:inline-block;
-  text-decoration: none;
-  color: inherit;
-}
-
-/* If you don't want the footer to be responsive, remove these media queries */
-
 @media (max-width: 600px) {
-
   .footer-basic-centered{
     padding: 35px;
   }
@@ -158,14 +141,5 @@ body, html {
 
   .footer-basic-centered .footer-company-name{
     font-size: 12px;
-  }
-
-  .footer-basic-centered .footer-links{
-    font-size: 14px;
-    padding: 25px 0 20px;
-  }
-
-  .footer-basic-centered .footer-links a{
-    line-height: 1.8;
   }
 }
