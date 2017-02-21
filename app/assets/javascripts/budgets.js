@@ -154,10 +154,47 @@ $(document).on('turbolinks:load', function() {
 	});
 
 	//==============================================================================
+	var indonesiaChart = new CanvasJS.Chart("indonesia-chart", {
+
+		colorSet: "setOne",
+
+		title: {
+			text: "Indonesia 4/26/16 - 5/11/16",
+			fontFamily: "Rubik"
+		},
+		legend:{
+  			fontFamily: "Rubik"
+ 		},
+		animationEnabled: true,
+		theme: "theme2",
+		data: [
+		{
+			type: "doughnut",
+			indexLabelFontFamily: "Rubik",
+			indexLabelFontSize: 15,
+			startAngle: 0,
+			indexLabelFontColor: "dimgrey",
+			indexLabelLineColor: "darkgrey",
+			toolTipContent: "{y} %",
+			showInLegend: true,
+
+			dataPoints: [
+			{ y: 26.33, legendText:"Food", indexLabel: "$419.95" },
+			{ y: 12.20, legendText:"Entertainment", indexLabel: "$194.56" },
+			{ y: 44.13, legendText:"Accommodation", indexLabel: "$703.92" },
+			{ y: 13.67, legendText:"Transport", indexLabel: "$218.07" },
+			{ y: 3.67, legendText:"Miscellaneous", indexLabel: "$58.53" }
+			]
+		}
+		]
+	});
+
+	//==============================================================================
 	thailand1Chart.render();
 	vietnamChart.render();
 	cambodiaChart.render();
 	thailand2Chart.render();
+	indonesiaChart.render();
 
 });
 
