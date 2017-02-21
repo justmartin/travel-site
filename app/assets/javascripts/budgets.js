@@ -9,6 +9,7 @@ $(document).on('turbolinks:load', function() {
 		"#87898d"                
   ]);
 
+  //==============================================================================
 	var thailand1Chart = new CanvasJS.Chart("thailand-chart-1", {
 
 		colorSet: "setOne",
@@ -117,9 +118,46 @@ $(document).on('turbolinks:load', function() {
 	});
 
 	//==============================================================================
+	var thailand2Chart = new CanvasJS.Chart("thailand-chart-2", {
+
+		colorSet: "setOne",
+
+		title: {
+			text: "Thailand 3/30/16 - 4/26/16",
+			fontFamily: "Rubik"
+		},
+		legend:{
+  			fontFamily: "Rubik"
+ 		},
+		animationEnabled: true,
+		theme: "theme2",
+		data: [
+		{
+			type: "doughnut",
+			indexLabelFontFamily: "Rubik",
+			indexLabelFontSize: 15,
+			startAngle: 0,
+			indexLabelFontColor: "dimgrey",
+			indexLabelLineColor: "darkgrey",
+			toolTipContent: "{y} %",
+			showInLegend: true,
+
+			dataPoints: [
+			{ y: 19.35, legendText:"Food", indexLabel: "$531.52" },
+			{ y: 21.24, legendText:"Entertainment", indexLabel: "$583.56" },
+			{ y: 29.59, legendText:"Accommodation", indexLabel: "$812.77" },
+			{ y: 22.95, legendText:"Transport", indexLabel: "$630.36" },
+			{ y: 6.88, legendText:"Miscellaneous", indexLabel: "$188.88" }
+			]
+		}
+		]
+	});
+
+	//==============================================================================
 	thailand1Chart.render();
 	vietnamChart.render();
 	cambodiaChart.render();
+	thailand2Chart.render();
 
 });
 
