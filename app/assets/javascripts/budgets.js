@@ -190,11 +190,48 @@ $(document).on('turbolinks:load', function() {
 	});
 
 	//==============================================================================
+	var singaporeChart = new CanvasJS.Chart("singapore-chart", {
+
+		colorSet: "setOne",
+
+		title: {
+			text: "Singapore 5/11/16 - 5/14/16",
+			fontFamily: "Rubik"
+		},
+		legend:{
+  			fontFamily: "Rubik"
+ 		},
+		animationEnabled: true,
+		theme: "theme2",
+		data: [
+		{
+			type: "doughnut",
+			indexLabelFontFamily: "Rubik",
+			indexLabelFontSize: 15,
+			startAngle: 0,
+			indexLabelFontColor: "dimgrey",
+			indexLabelLineColor: "darkgrey",
+			toolTipContent: "{y} %",
+			showInLegend: true,
+
+			dataPoints: [
+			{ y: 17.22, legendText:"Food", indexLabel: "$72.90" },
+			{ y: 9.69, legendText:"Entertainment", indexLabel: "$41.01" },
+			{ y: 38.98, legendText:"Accommodation", indexLabel: "$165.00" },
+			{ y: 28.91, legendText:"Transport", indexLabel: "$122.37" },
+			{ y: 5.19, legendText:"Miscellaneous", indexLabel: "$21.97" }
+			]
+		}
+		]
+	});
+
+	//==============================================================================
 	thailand1Chart.render();
 	vietnamChart.render();
 	cambodiaChart.render();
 	thailand2Chart.render();
 	indonesiaChart.render();
+	singaporeChart.render();
 
 });
 
