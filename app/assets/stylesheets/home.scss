@@ -79,19 +79,23 @@ body, html {
   padding-top: 50px;
 }
 
+#welcome-header {
+  margin-top: 30px;
+}
+
 .separator {
   width: 20%;
   background-color: white;
   height: 1px;
-  margin: 25px auto;
+  margin: 35px auto;
 }
 
 .welcome-text {
   text-align: justify;
   text-align: center;
-  width: 700px;
   margin: 0 auto;
   letter-spacing: 2px;
+  width: 700px;
 }
 //=====================================================================================
 .pre-footer-section {
