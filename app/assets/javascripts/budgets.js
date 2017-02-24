@@ -226,12 +226,49 @@ $(document).on('turbolinks:load', function() {
 	});
 
 	//==============================================================================
+	var malaysiaChart = new CanvasJS.Chart("malaysia-chart", {
+
+		colorSet: "setOne",
+
+		title: {
+			text: "Malaysia 5/14/16 - 5/21/16",
+			fontFamily: "Rubik"
+		},
+		legend:{
+  			fontFamily: "Rubik"
+ 		},
+		animationEnabled: true,
+		theme: "theme2",
+		data: [
+		{
+			type: "doughnut",
+			indexLabelFontFamily: "Rubik",
+			indexLabelFontSize: 15,
+			startAngle: 0,
+			indexLabelFontColor: "dimgrey",
+			indexLabelLineColor: "darkgrey",
+			toolTipContent: "{y} %",
+			showInLegend: true,
+
+			dataPoints: [
+			{ y: 16.07, legendText:"Food", indexLabel: "$126.92" },
+			{ y: 4.71, legendText:"Entertainment", indexLabel: "$37.15" },
+			{ y: 25.96, legendText:"Accommodation", indexLabel: "$204.97" },
+			{ y: 42.33, legendText:"Transport", indexLabel: "$334.19" },
+			{ y: 10.93, legendText:"Miscellaneous", indexLabel: "$86.32" }
+			]
+		}
+		]
+	});
+
+	//==============================================================================
 	thailand1Chart.render();
 	vietnamChart.render();
 	cambodiaChart.render();
 	thailand2Chart.render();
 	indonesiaChart.render();
 	singaporeChart.render();
+	malaysiaChart.render();
 
 });
 
