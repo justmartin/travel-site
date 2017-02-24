@@ -262,6 +262,42 @@ $(document).on('turbolinks:load', function() {
 	});
 
 	//==============================================================================
+	var greeceChart = new CanvasJS.Chart("greece-chart", {
+
+		colorSet: "setOne",
+
+		title: {
+			text: "Greece 6/13/16 - 6/29/16",
+			fontFamily: "Rubik"
+		},
+		legend:{
+  			fontFamily: "Rubik"
+ 		},
+		animationEnabled: true,
+		theme: "theme2",
+		data: [
+		{
+			type: "doughnut",
+			indexLabelFontFamily: "Rubik",
+			indexLabelFontSize: 15,
+			startAngle: 0,
+			indexLabelFontColor: "dimgrey",
+			indexLabelLineColor: "darkgrey",
+			toolTipContent: "{y} %",
+			showInLegend: true,
+
+			dataPoints: [
+			{ y: 48.57, legendText:"Food", indexLabel: "$1021.23" },
+			{ y: 6.11, legendText:"Entertainment", indexLabel: "$128.58" },
+			{ y: 6.67, legendText:"Accommodation", indexLabel: "$140.21" },
+			{ y: 29.66, legendText:"Transport", indexLabel: "$623.59" },
+			{ y: 8.99, legendText:"Miscellaneous", indexLabel: "$189.11" }
+			]
+		}
+		]
+	});
+
+	//==============================================================================
 	thailand1Chart.render();
 	vietnamChart.render();
 	cambodiaChart.render();
@@ -269,6 +305,7 @@ $(document).on('turbolinks:load', function() {
 	indonesiaChart.render();
 	singaporeChart.render();
 	malaysiaChart.render();
+	greeceChart.render();
 
 });
 
